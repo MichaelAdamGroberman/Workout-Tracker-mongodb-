@@ -14,7 +14,7 @@ app.use(express.static('public'));
 
 mongoose.connect(
   process.env.MONGODB_URI ||
-    'mongodb+srv://mgroberman:Tu3sday29@cluster0.toizs.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',
+    'mongodb+srv://<user>:<password>@<server>?retryWrites=true&w=majority',
   {
     useNewUrlParser: true,
     useFindAndModify: false,
