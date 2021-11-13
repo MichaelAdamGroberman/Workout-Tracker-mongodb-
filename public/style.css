@@ -13,13 +13,16 @@ body,
 }
 
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #85e6c1; 
+  color:rgb(102, 99, 99);
 }
 
 nav {
-  background-color: #5793fd;
-  color: #ffffff;
-  padding: 24px;
+  background-color: #85e6c1; 
+  color:rgb(102, 99, 99);
+  height: 80px;
+  padding: 10px;
   line-height: 3;
   font-size: 1.2rem;
 }
@@ -30,18 +33,7 @@ a:active,
 a:visited {
   text-decoration: none;
   color: inherit;
-}
-
-nav a {
-  padding: 18px;
-  transition-property: color, background;
-  transition-duration: 0.5s;
-  transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-
-nav a:hover {
-  background-color: #ffffff;
-  color: #5793fd;
+  color:rgb(102, 99, 99);
 }
 
 header {
@@ -49,6 +41,10 @@ header {
   padding-top: 80px;
   text-align: center;
   font-size: 1.5rem;
+}
+
+header h1 {
+  transform: skewX(-2deg);
 }
 
 select {
@@ -61,7 +57,7 @@ select {
   border: 1px solid #aaa;
   width: 100%;
   padding: 10px;
-  background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'),
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E"),
     linear-gradient(to bottom, #ffffff 0%, #e5e5e5 100%);
   background-repeat: no-repeat, repeat;
   background-position: right 0.7em top 50%, 0 0;
@@ -78,7 +74,7 @@ select:hover {
 
 select:focus {
   border-color: #aaa;
-  box-shadow: 0 0 1px 3px rgba(59, 153, 252, 0.7);
+  box-shadow: 0 0 1px 3px  rgb(236, 208, 207); 
   box-shadow: 0 0 0 3px -moz-mac-focusring;
   color: #222;
   outline: none;
@@ -103,7 +99,8 @@ input {
 }
 
 .wrapper {
-  background-color: #f2f8ff;
+  background-color: #85e6c1; 
+  color:rgb(102, 99, 99);
   padding-bottom: 100px;
 }
 
@@ -131,7 +128,7 @@ form > button {
 }
 
 form::after {
-  content: ' ';
+  content: " ";
   display: block;
   clear: both;
 }
@@ -208,7 +205,7 @@ form > button {
 }
 
 form::after {
-  content: ' ';
+  content: " ";
   display: block;
   clear: both;
 }
@@ -244,13 +241,17 @@ button {
   opacity: 0;
   transition: all 0.5s;
 }
-
+#canvas{
+  background-color: #85e6c1; 
+  color:rgb(102, 99, 99);
+}
 #toast.success {
   right: 10px;
   background-color: hsl(94, 40%, 86%);
   color: hsl(94, 90%, 16%);
   transition: all 0.5s;
 }
+
 .workout-type,
 form .cardio-form div,
 form .resistance-form div {
@@ -269,7 +270,7 @@ form > button {
 }
 
 form::after {
-  content: ' ';
+  content: " ";
   display: block;
   clear: both;
 }
