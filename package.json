@@ -1,5 +1,5 @@
 {
-  "name": "mongoose_skeleton",
+  "name": "Workout Tracker",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -7,9 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "watch": "nodemon server.js",
-    "seed": "node seeders/seed.js"
+    "seed": "node seed/seed.js"
   },
-  "author": "",
+  "author": "Michael Adam Groberman",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.3",
