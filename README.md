@@ -2,7 +2,6 @@
 Workout Tracker created using a MongoDB database on the backend
 
 ## Description
-<<<<<<< HEAD
 This app  is full-stack MERN app that uses express routes and a mongoDB database to let a user tracker their workouts.
 It's more meant as an excercise to create express REST methods, designing schemas, and linking it all to a NOSQL backend.
 
