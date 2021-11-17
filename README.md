@@ -7,7 +7,7 @@ It's more meant as an exercise to create express REST methods, designing schemas
 
 
 ![Screenshot1](https://github.com/MichaelAdamGroberman/Workout-Tracker-mongodb-/raw/main/assets/screenshot1.png)
-![Screehshot2](https://github.com/MichaelAdamGroberman/Workout-Tracker-mongodb-/raw/main/assets/screenshot2.pngg)
+![Screehshot2](https://github.com/MichaelAdamGroberman/Workout-Tracker-mongodb-/raw/main/assets/screenshot2.png)
 ![Screenshot3](https://github.com/MichaelAdamGroberman/Workout-Tracker-mongodb-/raw/main/assets/screenshot3.png)
 
 [Deployed Application](https://calm-peak-82271.herokuapp.com/stats)
